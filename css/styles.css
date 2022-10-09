@@ -9,6 +9,7 @@
     --background-dark-color: #2F303A;
     --header-border: #ECECEC;
     --cards-border-color: #EEE;
+    --icons-fill-color: #AFB1B8;
     --card-set-gap: 30px;
     --main-elements-gap: 94px;
     --button-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -311,6 +312,29 @@ img {
     font-weight: 500;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: var(--primary-light-color);
+    border-radius: 50%;
+    fill: var(--icons-fill-color);
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--accent-color);
+    fill: var(--primary-light-color);
+}
+
 /* Footer */
 
 .footer {
@@ -426,3 +450,4 @@ img {
     border: 1px solid var(--cards-border-color);
     border-top: 0;
 }
+
