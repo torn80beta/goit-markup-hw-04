@@ -111,12 +111,13 @@ img {
 }
 
 .contacts .item + .item {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .site-nav .link,
 .contacts .link {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     text-decoration: none;
@@ -156,6 +157,11 @@ img {
 
 .site-nav .item +.item {
     margin-left: 50px;
+}
+
+.contacts-icon {
+    margin-right: 10px;
+    fill: currentColor;
 }
 
 /* Main */
@@ -333,6 +339,10 @@ img {
 .social-link:focus {
     background-color: var(--accent-color);
     fill: var(--primary-light-color);
+}
+
+.social-links li + li {
+    margin-left: 10px;
 }
 
 /* Footer */
