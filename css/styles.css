@@ -260,6 +260,17 @@ img {
     margin-left: var(--card-set-gap);
 }
 
+.advantages-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: var(--background-light-color);
+}
+
 /* What we are doing */
 
 .section.spec {
