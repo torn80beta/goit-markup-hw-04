@@ -359,6 +359,31 @@ img {
     margin-left: 10px;
 }
 
+/* Clients */
+
+.clients-container {
+    display: flex;
+    justify-content: center;
+    gap: var(--card-set-gap)
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--icons-fill-color);
+    border-radius: 4px;
+    fill: var(--icons-fill-color);
+}
+
+.clients:hover,
+.clients:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
 /* Footer */
 
 .footer {
