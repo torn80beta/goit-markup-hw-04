@@ -508,20 +508,20 @@ img {
     line-height: calc(30/16);
 }
 
-.projects .link {
+.project-link {
+    display: block;
     color: var(--primary-text-color);
     text-decoration: none;
+}
+.project-link:hover,
+.project-link:focus {
+    box-shadow: var(--portfolio-box-shadow)
 }
 
 .projects-element {
     margin-right: 30px;
     margin-bottom: 30px;
     width: calc(100% / 3 - 30px);
-}
-
-.projects-element:hover,
-.projects-element:focus {
-    box-shadow: var(--portfolio-box-shadow)
 }
 
 .project-card-content {
